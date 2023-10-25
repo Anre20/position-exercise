@@ -2,6 +2,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
 .page-wrapper {
     background-color: #D9D9D9;
 }
@@ -27,7 +28,7 @@ input {
     font-size: 15px;
 }
 
-input:placeholder {
+input: placeholder {
     color: #ABAFB3;
 }
 
@@ -73,4 +74,49 @@ button.btn.btn-login {
     min-width: 250px;
 }
 
+.wave-bottom {
+    z-index: 1;
+    position: absolute;
+    min-height: 40%;
+    top: 600px;
+}
 
+.wave-top {
+    position: absolute;
+    top: 300px;
+}
+
+.dots-1 {
+    position: absolute;
+    top: 400px;
+    left: 80px;
+
+}
+
+.dots-2 {
+    position: absolute;
+    top: 30px;
+    right: 90px;
+}
+
+.times-icon {
+    position: relative;
+    top: -50px;
+    right: -260px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 2%
+}
+
+.wavy-lines-1 {
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.wavy-lines-2 {
+    position: absolute;
+    top: 350px;
+    right: 30px;
+}
